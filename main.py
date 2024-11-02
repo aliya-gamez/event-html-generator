@@ -9,22 +9,7 @@ def script_info():
           + "\t\t3) (Windows) Make sure virtual environment is activated for wheel and pandas to work.\n"
           + "\t\t4) (Unix/Linux) Make sure wheel and pandas are installed.\n"
           + "\t\t5) Run main.py, make sure environment is activated for wheel and pandas to work\n")
-script_info()
-
-"""
-EXAMPLE CSV:
-11/7/2024,Presentation,Wellness,CHAW Overview,RBA 0103,8:00 AM,8:30 AM,,Overview of CHAW services for UROP program leaders,TBD,,No,No,Kris Ryan,123-456-7890,XXXX@fsu.edu,General,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-EXAMPLE HTML:
-<li class="item present">
-    <div class="main">
-        <div class="name">CHAW Overview</div>
-        <div class="date">Thursday, November 1 @ RBA XXXX</div>
-    </div>
-    <div class="tag">8:00am - 8:30am</div>
-    <div class="desc">Overview of CHAW services for UROP program leaders.</div>
-</li>
-"""
+script_info() #comment out if needed
 
 ################## script start ##################
 
