@@ -8,7 +8,7 @@ CSV_INPUT_FOLDER = "csv-input"
 HTML_OUTPUT_FOLDER = "html-output"
 CURRENT_DATE = datetime.now().strftime("%Y-%m-%d")
 
-# Variables:
+# Variables
 new_html_file = "events-" + CURRENT_DATE + ".html"
 new_html_file_path = os.path.join(HTML_OUTPUT_FOLDER, new_html_file)
 new_csv_file = "events-" + CURRENT_DATE + ".csv"
