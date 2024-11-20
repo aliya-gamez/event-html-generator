@@ -16,7 +16,6 @@ script_info() #comment out if needed
 
 # Imports
 import pandas as pd
-import shutil as st
 from datetime import datetime
 import os
 import sys
