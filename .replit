@@ -1,11 +1,11 @@
 modules = ["python-3.12", "web", "bash"]
-run = "python3 app.py"
+run = "python3 app-replit.py"
 
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "run = \"python3 app.py\""]
+run = ["sh", "-c", "run = \"python3 app-replit.py\""]
 
 [[ports]]
 localPort = 3000

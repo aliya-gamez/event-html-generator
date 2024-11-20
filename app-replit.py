@@ -62,6 +62,6 @@ def open_browser():  # Open browser at flask apps url
 
 
 if __name__ == '__main__':
-    threading.Thread(target=open_browser).start()
-    app.run(debug=False)
-    #app.run(host="0.0.0.0", port=3000, debug=False)
+    #threading.Thread(target=open_browser).start()
+    #app.run(debug=False)
+    app.run(host="0.0.0.0", port=3000, debug=False)
